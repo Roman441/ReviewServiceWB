@@ -1,0 +1,3 @@
+get_feedbacks_job:
+  cron: "*/1 * * * *"
+  class: "GetFeedbackWorker"
